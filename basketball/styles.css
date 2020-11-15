@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+}
+.outerBox {
+  border: solid 4px;
+  height: 50%;
+  width: 45%;
+  display: flex;
+}
+
+.leftHalf {
+  border-right: solid 2px;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.rightHalf {
+  border-left: solid 2px;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.middleLeftCircle {
+  border: solid 4px;
+  height: 52px;
+  width: 24px;
+  border-right: none;
+  border-radius: 5vh 0 0 5vh;
+}
+
+.middleRightCircle {
+  border: solid 4px;
+  height: 52px;
+  width: 24px;
+  border-left: none;
+  border-radius: 0 5vh 5vh 0;
+}
+
+.threePointerL {
+  border: solid 4px;
+  height: 240px;
+  width: 150px;
+  position: absolute;
+  left: 0px;
+  border-radius: 0 200px 200px 0;
+  border-left: none;
+}
+
+.threePointerR {
+  border: solid 4px;
+  height: 240px;
+  width: 150px;
+  position: absolute;
+  right: 0px;
+  border-radius: 200px 0 0 200px;
+  border-right: none;
+}
+
+.twoPointerL {
+  height: 100%;
+  width: 60px;
+  margin-right: 8vw;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 64px;
+}
+
+.twoPointerR {
+  height: 100%;
+  width: 60px;
+  position: absolute;
+  right: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  border: solid 4px;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+
+.zone {
+  border: solid 4px;
+  height: 48px;
+  width: 90px;
+}
+
+.rightHalf .zone {
+  border-right: none;
+  right: 0px;
+  position: absolute;
+}
+
+.leftHalf .zone {
+  border-left: none;
+  left: 0px;
+  position: absolute;
+}
+
+
+
+
+

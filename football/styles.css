@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.outerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30, 139, 30);
+  height: 350px;
+  width: 550px;
+}
+
+.innerBox {
+  height: 300px;
+  width: 500px;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+
+.middleLine {
+  border: 2px solid white;
+  height: 100%;
+  width: 0;
+}
+
+.middleCircle {
+  border: 4px solid white;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+.eighteenL {
+  background-color: rgb(30, 139, 30);
+  border: 4px solid white;
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  border-left: none;
+}
+
+.eighteenR {
+  background-color: rgb(30, 139, 30);
+  border: 4px solid white;
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  right: 0;
+  border-right: none;
+}
+
+.goalAreaL {
+  border: 4px solid white;
+  height: 80px;
+  width: 30px;
+  position: absolute;
+  left: 0;
+  border-left: none;
+}
+
+.goalAreaR {
+  border: 4px solid white;
+  height: 80px;
+  width: 30px;
+  position: absolute;
+  right: 0;
+  border-right: none;
+}
+
+.crescentL {
+  border: 4px solid white;
+  border-radius: 50px;
+  height: 47px;
+  width: 47px;
+  position: absolute;
+  left: 67px;
+  z-index: -1;
+}
+
+.crescentR {
+  border: 4px solid white;
+  border-radius: 50px;
+  height: 47px;
+  width: 47px;
+  position: absolute;
+  right: 67px;
+  z-index: -1;
+}
